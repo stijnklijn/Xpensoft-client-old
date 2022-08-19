@@ -1,0 +1,50 @@
+.overview .title {
+  margin-top: 75px;
+  background-color: rgb(23, 71, 133);
+  color: white;
+  padding: 10px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.overview h1 {
+  text-align: center;
+}
+
+.overview .buttons {
+  display: flex;
+}
+
+.overview .button-change-view, .overview .button-add-header {
+  display: inline-block;
+  width: 20%;
+  justify-content: center;
+  margin: 20px auto;
+  padding: 10px;
+  border-radius: 10px;
+  font-weight: bold;
+  background-color: rgb(23, 71, 133);
+  color: white;
+}
+
+.overview .button-change-view:hover, .overview .button-add-header:hover {
+  background-color: white;
+  color: rgb(23, 71, 133);
+  cursor: pointer;
+}
+
+.overview .period, .overview .net-result, .overview .income, .overview .expenses{
+  text-align: center;
+  font-variant: small-caps;
+}
+  
+.overview .pos {
+    text-align: center;
+    color: green;
+  }
+  
+.overview .neg {
+    text-align: center;
+    color: red;
+  }
+  

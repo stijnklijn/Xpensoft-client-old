@@ -1,0 +1,72 @@
+.transactions .title {
+    margin-top: 75px;
+    background-color: rgb(23, 71, 133);
+    color: white;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.transactions .showing {
+    text-align: center;
+}
+
+.transactions .buttons {
+    display: flex;
+}
+
+.transactions .button-add-transaction, .button-import-transactions, .button-add-filters, .button-reset-filters {
+    display: inline-block;
+    width: 20%;
+    justify-content: space-between;
+    margin: 20px auto;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    background-color: rgb(23, 71, 133);
+    color: white;
+}
+
+.transactions .button-add-transaction:hover, .button-import-transactions:hover, .button-add-filters:hover, .button-reset-filters:hover {
+    background-color: white;
+    color: rgb(23, 71, 133);
+    cursor: pointer;
+ 
+}
+
+.transactions table {
+    margin: 0 auto;
+    width: 95%;
+    border-collapse: collapse;
+}
+
+.transactions th, .transactions td {
+    border-bottom: 0.5px solid rgb(23, 71, 133);
+    padding: 10px;
+}
+
+.transactions th, .transactions th.column-amount {
+    text-align: center;
+}
+
+.transactions .show-more-button-show {
+    display: block;
+    width: 50%;
+    margin: 20px auto;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    background-color: rgb(23, 71, 133);
+    color: white;
+ }
+
+   
+ .transactions .show-more-button-show:hover {
+    background-color: white;
+    color: rgb(23, 71, 133);
+    cursor: pointer;
+}
+
+.transactions .show-more-button-hide {
+    display: none;
+}

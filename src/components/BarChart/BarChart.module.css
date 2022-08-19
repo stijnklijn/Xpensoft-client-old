@@ -1,0 +1,12 @@
+.no-data {
+    text-align: center;
+}
+
+.bar-chart {
+    display: flex;
+    justify-content: center;
+}
+
+.bar-chart svg {
+    margin: 10px;
+}

@@ -1,0 +1,41 @@
+
+.transaction .column-date {
+    text-align: center;
+}
+
+.transaction .column-header select {
+    width: 100%;
+    border: none;
+    font-family: inherit;
+    font-size: inherit;
+}
+
+.transaction .column-amount-in {
+    text-align: right;
+    background-color: rgb(57, 180, 57);
+    color: white;
+}
+
+.transaction .column-amount-out {
+    text-align: right;
+    background-color: rgb(153, 39, 39);
+    color: white;
+}
+
+.transaction .column-pen-trash {
+    padding: 0;
+    text-align: center;
+}
+
+.transaction .pen {
+    margin-right: 5px;
+}
+
+.transaction .trash{
+    margin-left: 5px;
+}
+
+.transaction .pen:hover, .transaction .trash:hover {
+    color: grey;
+    cursor: pointer;
+}

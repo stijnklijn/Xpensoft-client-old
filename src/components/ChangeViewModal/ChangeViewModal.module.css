@@ -1,0 +1,69 @@
+.backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    background: rgba(0, 0, 0, 0.75)
+}
+
+.change-view-modal {
+    text-align: center;
+    position: fixed;
+    top: 30vh;
+    left: 30%;
+    width: 40%;
+    height: 40%;
+    z-index: 100;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.change-view-modal h2 {
+    background: rgb(23, 71, 133);
+    color: white;
+    margin: 0;
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.change-view-modal .input-fields {
+    width: 550px;
+    margin: 25px auto;
+}
+
+.change-view-modal label {
+    text-align: center;
+    font-weight: bold;
+    display: inline-block;
+    width: 100px;
+}
+
+.change-view-modal .label-empty {
+    width: 180px;
+    text-align: left;
+}
+
+.change-view-modal input {
+    margin: 10px;
+    border: 2px solid rgb(23, 71, 133);
+}
+
+.change-view-modal button {
+    display: inline-block;
+    width: 20%;
+    margin: 0 20px 20px 20px;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    background-color: rgb(23, 71, 133);
+    color: white;
+}
+
+.change-view-modal button:hover {
+    background-color: white;
+    color: rgb(23, 71, 133);
+    cursor: pointer;
+}

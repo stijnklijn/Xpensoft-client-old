@@ -1,0 +1,73 @@
+.backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    background: rgba(0, 0, 0, 0.75)
+}
+
+.add-edit-header-modal {
+    text-align: center;
+    position: fixed;
+    top: 30vh;
+    left: 30%;
+    width: 40%;
+    height: 40%;
+    z-index: 100;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.add-edit-header-modal h2 {
+    background: rgb(23, 71, 133);
+    color: white;
+    margin: 0;
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.add-edit-header-modal .input-fields {
+    width: 550px;
+    margin: 25px auto;
+}
+
+.add-edit-header-modal label {
+    font-weight: bold;
+    text-align: left;
+    display: inline-block;
+    width: 100px;
+}
+
+.add-edit-header-modal [type='text'] {
+    box-sizing: border-box;
+    margin-top: 20px;
+    padding: 5px;
+    border: 2px solid rgb(23, 71, 133);
+    width: 400px;
+}
+
+.add-edit-header-modal [type='radio'] {
+    margin-top: 40px;
+    margin-right: 10px;
+    
+}
+
+.add-edit-header-modal button {
+    display: inline-block;
+    width: 20%;
+    margin: 0 20px 20px 20px;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    background-color: rgb(23, 71, 133);
+    color: white;
+}
+
+.add-edit-header-modal button:hover {
+    background-color: white;
+    color: rgb(23, 71, 133);
+    cursor: pointer;
+}

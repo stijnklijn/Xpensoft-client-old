@@ -1,0 +1,12 @@
+.no-data {
+    text-align: center;
+}
+
+.pie-chart {
+    display: flex;
+    justify-content: center;
+}
+
+.pie-chart svg {
+    margin: 10px;
+}

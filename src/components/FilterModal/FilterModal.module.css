@@ -1,0 +1,74 @@
+.backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    background: rgba(0, 0, 0, 0.75)
+}
+
+.filter-modal {
+    text-align: center;
+    position: fixed;
+    top: 15vh;
+    left: 30%;
+    width: 40%;
+    height: 70%;
+    z-index: 100;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.filter-modal h2 {
+    background: rgb(23, 71, 133);
+    color: white;
+    margin: 0;
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.filter-modal .input-fields {
+    width: 550px;
+    margin: 25px auto;
+}
+
+.filter-modal label {
+    font-weight: bold;
+    text-align: left;
+    display: inline-block;
+    width: 120px;
+}
+
+
+.filter-modal .header-label {
+    position: relative;
+    top: -40px;
+}
+
+.filter-modal input, 
+.filter-modal select {
+    box-sizing: border-box;
+    margin: 10px;
+    padding: 5px;
+    border: 2px solid rgb(23, 71, 133);
+    width: 400px;
+}
+
+.filter-modal button {
+    display: inline-block;
+    width: 20%;
+    margin: 0 20px 20px 20px;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    background-color: rgb(23, 71, 133);
+    color: white;
+}
+
+.filter-modal button:hover {
+    background-color: white;
+    color: rgb(23, 71, 133);
+    cursor: pointer;
+}

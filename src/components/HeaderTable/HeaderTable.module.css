@@ -1,0 +1,41 @@
+ .header-table table {
+    margin: 0 auto;
+    width: 50%;
+  }
+
+  .header-table th, td {
+    border-bottom: 0.5px solid rgb(23, 71, 133);
+    padding: 10px;
+  }
+  
+  .header-table .column-header {
+    width: 50%;
+  }
+  
+  .header-table .column-amount-in{
+    width: 20%;
+    text-align: right;
+    background-color: rgb(57, 180, 57);
+    color: white;  
+  }
+  
+  .header-table .column-amount-out{
+    width: 20%;
+    text-align: right;
+    background-color: rgb(153, 39, 39);
+    color: white;
+  }
+ 
+  .header-table .column-percentage {
+    width: 20%;
+    text-align: center;
+  }
+  
+  .header-table .column-remove {
+    width: 10%;
+    text-align: center;
+  }
+  
+  .header-table label {
+    margin-right: 20px;
+  }
