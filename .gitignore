@@ -1,2 +1,4 @@
+.azure
+.vscode
 build
 node_modules

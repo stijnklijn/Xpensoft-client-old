@@ -1,7 +1,6 @@
 const Server = {
 
-    //TODO hier het juiste pad naar de server vermelden
-    host: 'http://localhost:8080',
+    host: 'https://xpensoft-api.azurewebsites.net',
 
     async register(email, password) {
         const response = await fetch(`${this.host}/register`, {
@@ -16,7 +15,7 @@ const Server = {
     },
 
     async login(email, password) {
-        const auth = 'Basic ' + btoa(email + ':' + password);
+        const auth = 'Basic ' + Buffer.from(email + ':' + password, 'utf8').toString('base64');
         const response = await fetch(`${this.host}/login`, {
             method: 'GET',
             headers: {'Content-Type': 'application/json', 'Authorization': auth},
