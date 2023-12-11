@@ -1,6 +1,7 @@
 const Server = {
 
-    host: 'https://xpensoft-api.azurewebsites.net',
+    host: 'http://localhost:8080/api',
+    //host: 'https://xpensoft.nl/api',
 
     async register(email, password) {
         const response = await fetch(`${this.host}/register`, {
@@ -10,12 +11,13 @@ const Server = {
         });
         if (response.status !== 201) {
             throw new Error();
-        }
+        }   
         return await response.json();
     },
 
     async login(email, password) {
-        const auth = 'Basic ' + Buffer.from(email + ':' + password, 'utf8').toString('base64');
+        //const auth = 'Basic ' + Buffer.from(email + ':' + password, 'utf8').toString('base64');
+        const auth = 'Basic ' + window.btoa(`${email}:${password}`);
         const response = await fetch(`${this.host}/login`, {
             method: 'GET',
             headers: {'Content-Type': 'application/json', 'Authorization': auth},
