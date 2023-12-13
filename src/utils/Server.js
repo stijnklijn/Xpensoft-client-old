@@ -1,7 +1,6 @@
 const Server = {
 
     host: 'http://localhost:8080/api',
-    //host: 'https://xpensoft.nl/api',
 
     async register(email, password) {
         const response = await fetch(`${this.host}/register`, {
